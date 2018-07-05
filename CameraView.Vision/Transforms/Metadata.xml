@@ -9,4 +9,5 @@
   -->
   <attr path="/api/package[@name='com.google.android.cameraview.vision']/class[@name='BarcodeScannerView']/method[@name='setFrameDelegate']/parameter[@name='delegate']" 
         name="name">frameDelegate</attr>
+
 </metadata>

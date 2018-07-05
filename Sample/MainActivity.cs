@@ -28,22 +28,9 @@ namespace Sample
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			var frameDelegate = new FrameProcessorDelegate<SparseArray> ();
-			frameDelegate.OnSuccess = x =>
-			{
-				if (x.Size() == 0)
-				{
-					return;
-				}
-
-				for (int i = 0; i < x.Size (); i++)
-				{
-					var item = x.Get (x.KeyAt (i));
-					var barcode = item.JavaCast<Barcode> ();
-					Log.Debug ("Main", barcode.DisplayValue);
-				}
-			};
-			frameDelegate.OnError = er => Log.Error ("Main", er.Message);
+			var frameDelegate = new BarcodeProcessorDelegateImpl ();
+			frameDelegate.OnBarcodeFound = x => Log.Debug ("Main", x.DisplayValue);
+			frameDelegate.OnFailure = er => Log.Error ("Main", er.Message);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
