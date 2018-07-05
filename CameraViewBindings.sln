@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraView", "CameraView\CameraView.csproj", "{F4F96481-86FF-427A-A1B8-273EE5062067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraView.Vision", "CameraView.Vision\CameraView.Vision.csproj", "{A1CDE04C-91B2-40C7-93AA-D3C7C57124E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{1942C25D-6469-44D8-931B-63C9B3C39BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F96481-86FF-427A-A1B8-273EE5062067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F96481-86FF-427A-A1B8-273EE5062067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F96481-86FF-427A-A1B8-273EE5062067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F96481-86FF-427A-A1B8-273EE5062067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CDE04C-91B2-40C7-93AA-D3C7C57124E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CDE04C-91B2-40C7-93AA-D3C7C57124E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CDE04C-91B2-40C7-93AA-D3C7C57124E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CDE04C-91B2-40C7-93AA-D3C7C57124E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1942C25D-6469-44D8-931B-63C9B3C39BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1942C25D-6469-44D8-931B-63C9B3C39BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1942C25D-6469-44D8-931B-63C9B3C39BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1942C25D-6469-44D8-931B-63C9B3C39BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
