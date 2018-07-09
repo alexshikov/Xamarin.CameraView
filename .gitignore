@@ -1,3 +1,6 @@
+_builds
+*.aar
+
 # Autosave files
 *~
 
