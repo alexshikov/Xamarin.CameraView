@@ -1,0 +1,4 @@
+[submodule "google-cameraview"]
+	path = google-cameraview
+	url = git@github.com:alexshikov/cameraview.git
+	branch = vision-detector
